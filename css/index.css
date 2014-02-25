@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "LubalGraph";
+    src: url("fonts/LubalGraphMd.ttf");
+}
+body{
+	background-color: #142228;
+	font-family: "LubalGraph";
+	color: white;
+	font-size: 20px;
+}
+#wrapper{
+	padding-top: 25px;
+	width: 1000px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+.blue{
+	background-color : #21c1de;
+	color: #142228;
+}
+.pink{
+	background-color : #ec008b;
+	color: white;
+}
+h1{
+	margin-top: 15px;
+	margin-bottom: 35px;
+	font-size: 50px;
+	font-weight: normal;
+}
+#logos img{
+	margin-right: 70px;
+}
+#btns{
+	margin-bottom: 75px;
+}
+#btns div{
+	border-radius: 11px;
+    display: inline-block;
+    height: 35px;
+    line-height: 1.7;
+    margin-right: 10px;
+    text-align: center;
+    width: 200px;
+}
+p{
+	margin-bottom: -30px;
+}
+div.pink:hover{
+	background-color: #BA0081;
+}
+#htb{
+	width: 850px;
+}
