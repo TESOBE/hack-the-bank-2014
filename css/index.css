@@ -34,6 +34,7 @@ h1{
 }
 #logos img{
 	margin-right: 70px;
+	height: 170px;
 }
 #btns{
 	margin-bottom: 75px;
@@ -52,8 +53,13 @@ p{
 	margin-bottom: -30px;
 }
 div.pink:hover{
-	background-color: #BA0081;
+	background-color: #FC289B;
+}
+div.blue:hover{
+	background-color: #3ADAF7;
 }
 #htb{
 	width: 760px;
 }
+
+
