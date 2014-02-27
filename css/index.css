@@ -7,10 +7,10 @@
     src: url("fonts/Sanchez.ttf");
 }
 body{
-	background-color: #142228;
+	background-color: #d5e7d8;
 	font-family: "Sanchez";
-	color: white;
-	font-size: 22px;
+	color: #655366;
+	font-size: 18px;
 }
 #wrapper{
 	padding-top: 25px;
@@ -19,7 +19,7 @@ body{
 	padding-bottom: 50px;
 }
 .blue{
-	background-color : #21c1de;
+	background-color : #25c1de;
 	color: #142228;
 }
 .pink{
@@ -49,7 +49,12 @@ h1{
     width: 200px;
     font-size: 20px;
 }
-p{
+div.about{
+	text-align: justify;
+	width: 87%;
+}
+p.org{
+	margin-top: 50px;
 	margin-bottom: -30px;
 }
 div.pink:hover{
