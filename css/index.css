@@ -14,7 +14,7 @@ body{
 }
 #wrapper{
 	padding-top: 25px;
-	width: 760px;
+	width: 710px;
 	margin: 0 auto;
 	padding-bottom: 50px;
 }
@@ -36,7 +36,7 @@ h1{
 	height: 130px;
 }
 #logos img{
-	margin-right: 70px;
+	margin-right: 50px;
 }
 #btns{
 	margin-bottom: 75px;
@@ -53,11 +53,11 @@ h1{
 }
 div.about{
 	text-align: justify;
-	width: 87%;
+	width: 92%;
 }
 p.org{
 	margin-top: 50px;
-	margin-bottom: 20px;
+	margin-bottom: 21px;
 }
 div.pink:hover{
 	background-color: #FC289B;
@@ -66,8 +66,15 @@ div.blue:hover{
 	background-color: #3ADAF7;
 }
 #htb{
-	width: 760px;
+	width: 710px;
 }
-#l39, #tesobe{
-	padding-bottom: 20px;
+#l39{
+	padding-bottom: 15px;
+}
+#tesobe{
+	height: 60px;
+	 padding-bottom: 21px;
+}
+#obp{
+	height: 95px;
 }
