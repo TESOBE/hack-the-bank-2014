@@ -1,33 +1,53 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1" charset="utf-8">
 		<title>Hack the Bank 2014</title>
 		<link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" media="screen" href="css/index.css">
+		<link rel="stylesheet" type="text/css" media="screen" href="css/unsemantic.css">
 		<meta>
+		<style>
+			div{
+				/*border: 1px solid black; 	*/
+			}
+		</style>
 	</head>
 	<body>
-		<div id="wrapper">
-			<img id="htb" src="img/logo-dark.png">
-			<h1>FinTech API hackathon <br>to reinvent the bank.</h1>
-			<div id="btns">
-				<a href="suppl/invite.ics"><div class="blue">21 March 2014</div></a>
-				<a href="https://maps.google.de/maps?q=Level39,+One+Canada+Square,+Canary+Wharf+E14+5AB&oe=utf-8&client=firefox-a&channel=fflb&ie=UTF-8&ei=9RIPU8zgL-T8ygPAyIGwBQ&ved=0CAkQ_AUoAQ" target="_blank"><div class="blue">LONDON</div></a>
-				<a href="http://hackmakethebank3.eventbrite.com"><div class="pink">SIGN UP</div></a>
-			</div>
-
-			<div class="about">
-				<p>
+		<div id="wrapper" class="grid-container">
+	    <div class="grid-100">
+	     	<img id="htb" class="grid-100" src="img/logo-dark.png">
+	     	<h1>FinTech API hackathon <br>to reinvent the bank.</h1>
+	    </div>
+	    <div id="btns">
+	    	<div class="grid-33">
+	    		<a href="suppl/invite.ics"><div class="blue">21 March 2014</div></a>
+	    	</div>
+	    	<div class="grid-33">
+	    		<a href="https://maps.google.de/maps?q=Level39,+One+Canada+Square,+Canary+Wharf+E14+5AB&oe=utf-8&client=firefox-a&channel=fflb&ie=UTF-8&ei=9RIPU8zgL-T8ygPAyIGwBQ&ved=0CAkQ_AUoAQ" target="_blank"><div class="blue">LONDON</div></a>
+	    	</div>
+	    	<div class="grid-33">
+	    		<a href="http://hackmakethebank3.eventbrite.com"><div class="pink">SIGN UP</div></a>
+	    	</div>
+	    </div>
+		
+			<div class="about grid-100">
+			 	<p>
 					Located in a great place for sky high ideas, coding and views, the 3rd edition of Hack/Make The Bank Hackathon will host programmers, designers and financial services industry experts for a day of brainstorming, software creation and fun! Attendees will leverage and combine a number of financial and related APIs in order to bring their innovative ideas to life!
-				</p>
+				</p> 
+				<p class="org">Organised by TESOBE / The Open Bank Project and Level39</p>	
+		  </div>
+		  <div id="logos">
+		  	<div class="grid-33">
+		  		<a href="http://tesobe.com" target="_blank"><img id="tesobe" src="img/logo-tesobe-dark.png"></a>
+		    </div>
+		    <div class="grid-33">
+		    	<a href="http://openbankproject.com" target="_blank"><img id="obp" src="img/logo-obp-bw.png"></a>
+		    </div>
+		    <div class="grid-33">
+		    	<a href="http://level39.co" target="_blank"><img id="l39" src="img/logo-l39-dark.png"></a>
+		    </div>
 			</div>
-			<p class="org">Organised by TESOBE / The Open Bank Project and Level39</p>
-			<div id="logos">
-				<a href="http://tesobe.com" target="_blank"><img id="tesobe" src="img/logo-tesobe-dark.png"></a>
-				<a href="http://openbankproject.com" target="_blank"><img id="obp" src="img/logo-obp-bw.png"></a>
-				<a href="http://level39.co" target="_blank"><img id="l39" src="img/logo-l39-dark.png"></a>
-			</div>
-		</div>
+	  </div>
 	</body>
 </html>

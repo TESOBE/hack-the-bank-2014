@@ -11,12 +11,14 @@ body{
 	font-family: "Sanchez";
 	color: #655366;
 	font-size: 18px;
+	padding: 25px 50px 50px 50px;
 }
+body div{
+	text-align: center;
+}
+
 #wrapper{
-	padding-top: 25px;
-	width: 710px;
-	margin: 0 auto;
-	padding-bottom: 50px;
+	max-width: 700px;
 }
 .blue{
 	background-color : #25c1de;
@@ -27,33 +29,26 @@ body{
 	color: white;
 }
 h1{
-	margin-top: 15px;
-	margin-bottom: 35px;
-	font-size: 45px;
+	font-size: 40px;
 	font-weight: normal;
-}
-#logos{
-	height: 130px;
+	text-align: left;
 }
 #logos img{
-	margin-right: 50px;
+margin-bottom: 20px;
 }
 #btns{
 	margin-bottom: 75px;
 }
 #btns div{
 	border-radius: 11px;
-    display: inline-block;
     height: 35px;
     line-height: 1.7;
-    margin-right: 15px;
     text-align: center;
-    width: 205px;
     font-size: 20px;
+    margin-bottom: 20px;
 }
 div.about{
 	text-align: justify;
-	width: 92%;
 }
 p.org{
 	margin-top: 50px;
@@ -66,15 +61,18 @@ div.blue:hover{
 	background-color: #3ADAF7;
 }
 #htb{
-	width: 710px;
+	width: 100%	
 }
 #l39{
-	padding-bottom: 15px;
+	margin-top: 10px;
 }
 #tesobe{
-	height: 60px;
-	 padding-bottom: 21px;
+	height: 57px;
+	margin-top: 18px;
 }
 #obp{
 	height: 95px;
+}
+a{
+	text-decoration: none
 }
