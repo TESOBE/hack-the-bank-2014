@@ -76,3 +76,14 @@ div.blue:hover{
 a{
 	text-decoration: none
 }
+#paypal{
+	width: 134px;
+	margin-top: 34px;
+}
+#pixelpin{
+	width: 138px;
+}
+#temenos{
+	margin-top: 18px;
+	width: 170px;
+}
