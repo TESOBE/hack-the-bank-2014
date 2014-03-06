@@ -77,13 +77,29 @@ a{
 	text-decoration: none
 }
 #paypal{
-	width: 134px;
-	margin-top: 34px;
+	width: 50px;
+	margin-top: 12px;
 }
 #pixelpin{
-	width: 138px;
+	width: 50px;
 }
 #temenos{
-	margin-top: 18px;
-	width: 170px;
+	width: 60px;
+	margin-top: 7px;
+}
+#obp-api{
+	width: 55px;
+}
+#op3nvoice{
+    width: 44px;
+    margin-top: -3px;
+}
+#gi{
+	width: 60px;
+	margin-top: 17px;
+}
+.apis{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: left;
 }
