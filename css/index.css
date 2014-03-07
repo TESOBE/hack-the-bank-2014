@@ -81,21 +81,22 @@ a{
 	margin-top: 12px;
 }
 #pixelpin{
-	width: 50px;
+	width: 51px;
 }
 #temenos{
-	width: 60px;
+	width: 62px;
 	margin-top: 7px;
 }
 #obp-api{
 	width: 55px;
+	margin-top: 5px;
 }
 #op3nvoice{
-    width: 44px;
+    width: 43px;
     margin-top: -3px;
 }
 #gi{
-	width: 60px;
+	width: 63px;
 	margin-top: 17px;
 }
 .apis{
